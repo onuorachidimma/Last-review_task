@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.container{
+    margin: auto;
+    width: 75%;
+    padding-top: 50px;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.f-size{
+    font-size: 0.9rem;
+}
+
+h1{
+    margin-bottom: 41px;
+}
+
+.sect-container{
+    border: 1px solid #eff0f6;
+    padding: 40px 35px;
+    border-radius: 35px;
+    box-shadow: 0 5px 12px 0 rgba(20, 20, 43, 0.05);
+    width: 32%;
+    margin-bottom: 20px;
+}
+
+.info-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+i{
+    color: rgb(255, 107, 0);
+}
+
+.p1{
+    margin: 15px 10px;
+    margin-left: 0;
+    
+}
+
+.p-gray{
+    color: #8c8c95;;
+}
+
+img{
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.t-img{
+    object-position: top;
+}
+
+.name{
+    margin-left: 10px;
+    margin-top: 14px;
+}
+
+.name p{
+    margin-bottom: 2px;
+}
+
+a{
+    background-color: #fedb01;
+    color: #000000;
+    text-decoration: none;
+    padding: 20px 32px;
+    border-radius: 100px;
+}
+
+a:hover{
+    background-color: #000000;
+    color: white;
+}
+
+.btn{
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 60px;
+}
+
+
+/* FOR SMALLER SCREENS */
+
+
+@media screen and (max-width: 1151px) {
+    
+    .container{
+        margin: auto;
+        width: 95%;
+    }
+
+    .sect-container{
+        width: 49%;
+        min-width: 304px;
+       
+    }
+}
+
+@media screen and (max-width: 648px) {
+    
+    .container{
+        margin: auto;
+        width: 95%;
+    }
+
+    .sect-container{
+        width: 98%;
+    }
+}
